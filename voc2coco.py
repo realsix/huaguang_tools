@@ -12,7 +12,7 @@ category_set = dict()
 image_set = set()
 
 category_item_id = -1
-image_id = 20180000000
+image_id = 20220000000
 annotation_id = 0
 
 
@@ -288,6 +288,7 @@ if __name__ == '__main__':
     # parseXmlFiles_by_txt(voc_data_dir,json_save_path,"trainval")
 
     # 通过文件夹生成
-    ann_path = "../custom/pingpong/VOC2007/annoval"
-    json_save_path = "../custom/pingpong/coco/val.json"
+    ann_path = r"Q:\datasets\custom\footfinal\anno"
+    json_save_path = r"Q:\datasets\custom\footfinal\train.json"
     parseXmlFiles(ann_path, json_save_path)
+
